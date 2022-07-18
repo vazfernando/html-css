@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemploe de Hover 02 e DIV</title>
+    <style>
+        div > p {
+            display: none;
+            background-color: blueviolet;
+            width: 140px;
+            color: white;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        div:hover {
+            color: brown;
+        }
+
+        body > div {
+            display: none;
+        }
+
+        body:hover {
+            color: blue;
+        }
+
+        body:hover > div {
+            display: block;
+        }
+
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover e Div's Mágicas</h1>
+    <hr>
+    <p>&rightarrow; Revele o texto escondido</p>
+    <div>
+        "Quando passa a seta o texto a sua frente desperta"
+        <p>"Aparecium Totalus"</p>
+    </div>
+    <p>Que a magia guie você!</p>
+</body>
+</html>

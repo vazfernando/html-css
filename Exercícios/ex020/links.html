@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <link rel="shortcut icon" href="Logo_ellef-favicon.ico" type="image/x-icon">
+    <style>
+
+                        /*  SELETORES PERSONALIZADOS
+
+                                #  = id
+                                .  = class
+                                :  = pseudo-class
+                                :: = pseudo-element
+                                >  = children
+
+                        */ 
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            background-color: yellow;
+            color: lightcoral;
+        }
+
+        a::after {
+            content:' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightgray;
+        }
+
+        .importante::before {
+            content: '⇨ ';
+        }
+
+        p::before {
+            content: '⇨    ';
+        }
+
+        .importante:active {
+            background-color: rgb(204, 167, 152);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <hr>
+    <ul type="circle">
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" class="importante">Repositório GitHub</a></li>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external" class="importante">Site do Curso em Video</a></li>
+    </ul>
+    <h2>Textos Aleatórios</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, numquam ipsam? Fugiat distinctio asperiores veniam incidunt hic. Ducimus officiis adipisci ipsum libero expedita accusamus, inventore tenetur voluptatibus dignissimos dolorem cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident animi iusto deserunt sapiente nulla obcaecati, libero, repudiandae amet itaque repellat aspernatur? Illum, quos eius! Libero corrupti aut deserunt rerum veritatis.</p>
+    <h2>Textos Aleatórios</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus aut impedit, velit ea fuga quod placeat nam quam cupiditate reiciendis amet, ad explicabo eos non. Accusamus atque nulla in!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi accusamus amet esse facere tempora, molestiae autem blanditiis eaque, maxime quibusdam dolor! Cupiditate aliquid repellat quisquam enim earum nam ab reprehenderit?</p>
+</body>
+</html>

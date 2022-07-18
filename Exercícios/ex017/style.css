@@ -1,0 +1,6 @@
+@charset 'UTF-8';
+
+h1 {
+    font: italic bold 4em Arial, times;
+    color: blue;
+}

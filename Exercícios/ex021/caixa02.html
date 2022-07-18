@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model 02</title>
+    <style>
+        * {
+            background-color: rgb(54, 52, 52);
+        }
+        h1 {
+            text-align: center;
+            background-color: lightgray;
+            height: 77px;
+            width: 292px; 
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+            /* padding: 10px 10px 10px 10px; 
+            se as 4 forem exatamente iguais vc simplifica colocando somente um valor
+            padding: 10px; */
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(221, 166, 85);
+
+            /* border: 10px solid orange */
+
+            margin-top: 14px;
+            margin-right: auto;
+            margin-bottom: 20px;
+            margin-left: auto;
+
+            /* margin: 14px 10px 20px 102px 
+            se quiser centralizar as mergens da esquerda e da direita fazer
+            margin: 14px auto 20px auto */
+
+            outline-width: 4px;
+            outline-style: dashed;
+            outline-color: rgb(216, 225, 45);
+
+            /* outline: 7px dotted yellow */
+        }
+        p {
+            color: white;
+            height: 110px;
+            width: 310px;
+            background-color: rgb(89, 84, 84);
+            border-color: rgb(203, 125, 57);
+            border-width: 5px;
+            border-style: dashed;
+            padding: 10px;
+            margin: 10px auto 18px auto;
+        }
+
+        div {
+            color: white;
+            height: 250px;
+            width: 310px;
+            background-color: rgb(89, 84, 84);
+            margin: auto;
+            padding: 10px 10px 50px 10px;
+            border: 5px dashed rgb(203, 125, 57);
+
+        }
+        a{
+            color: orange;
+            background-color: rgb(0, 0, 0);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(255, 255, 255);
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modelos de Caixas Box-Level</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique vero deleniti <a href="#">perferendis nesciunt</a> corporis in doloremque ipsam harum laborum illum inventore magnam omnis eveniet at, cupiditate ipsum aliquam consequatur.</p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque suscipit exercitationem illum labore amet expedita dolorum necessitatibus animi sint consequuntur pariatur blanditiis iure quisquam sed magni laudantium, soluta tempora adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In corrupti alias iure illum ipsa consequatur reiciendis, corporis culpa dolorem pariatur magnam laborum facilis sunt molestiae est totam, maxime accusantium similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur consequuntur expedita cupiditate, necessitatibus atque ea, nam molestiae illo debitis eaque velit, assumenda vel ut in. Placeat pariatur atque esse!
+    </div>
+</body>
+</html>

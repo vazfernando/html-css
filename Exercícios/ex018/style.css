@@ -1,0 +1,48 @@
+@chaset "ITF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Londom';
+    src: url('fontes/Olondona.otf') format('opentype'), url('fontes/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+/* Tipos de format
+- opentype (otf)
+- truetype (ttf) */
+
+main {
+    background-color: white;
+    background-color: white;
+    text-align: auto;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    box-shadow: 5px 5px 15px rgba(89, 85, 85, 0.525);
+    border-radius: 10px 5px 20px 50px;
+
+}
+    
+body {
+    background-image: linear-gradient(to left, orange, red);
+    font: bolder 1em 'Work Sans', sans-serif;
+}
+
+h1 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 20px rgb(0, 0, 0);
+    color: brown;
+}
+
+h2 {
+    font-family: 'Londom';
+}
+
