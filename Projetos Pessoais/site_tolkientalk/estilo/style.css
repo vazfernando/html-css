@@ -89,6 +89,21 @@ div.video > iframe {
 
 aside {
     background-color: var(--cor2);
+    color: white;
+}
+
+aside h3 {
+    
+}
+
+aside a {
+    font-family: var(--fonte-destaque);
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover {
+    text-decoration: underline;
 }
 
 footer {
