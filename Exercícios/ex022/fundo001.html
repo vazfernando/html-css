@@ -4,38 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens de Fundo</title>
+    <title>Imagens em Fundo de Caixa</title>
     <style>
+        * {
+            margin: 0px;
+            border: 0px;
+        }
+
         body {
-            background-image: url(imagens/wallpaper001.jpg);
+            background-image: url(imagens/wallpaper002.jpg);
         }
 
-        #caixa {
+        .quadrado {
             display: inline-block;
+            border-radius: 0px 15px;
         }
 
-        .q1 {
+        #q1 {
             background-image: linear-gradient(to right, rgb(185, 108, 178), lightgray);
             height: 300px;
             width: 300px;
         }
 
-        .q2 {
+        #q2 {
             background-image: url(imagens/pattern003.png);
             height: 300px;
             width: 300px;
         }
 
-        .q3 {
+        #q3 {
             background-image: linear-gradient(to left, rgb(65, 115, 65), lightgray);
+            height: 300px;
+            width: 300px;
+        }
+
+        #q4 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+        }
+        
+        #q5 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+        }
+
+        #q6 {
+            background-color: lightgray;
             height: 300px;
             width: 300px;
         }
     </style>
 </head>
 <body>
-    <div class="q1" id="caixa"></div>
-    <div class="q2" id="caixa"></div>
-    <div class="q3" id="caixa"></div>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div class="quadrado" id="q4"></div>
+    <div class="quadrado" id="q5"></div>
+    <div class="quadrado" id="q6"></div>
 </body>
 </html>
