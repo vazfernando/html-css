@@ -7,59 +7,84 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
-            background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
             position: relative;
+
             height: 500px;
-            padding: 10px;
-            background-color: purple;
+            width: 500px;
+            background-color: blueviolet;
+
+            border-radius: 20px;
         }
 
-        #conteudo {
-            background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
-
+        #content {
             position: absolute;
             left: 50%;
             top: 50%;
 
+            height: 250px;
+            width: 250px;
+            background-color: violet;
+
             transform: translate(-50%, -50%);
-            height: 200px;
-            width: 200px;
-            background-color: yellow;
+
+            border-radius: 20px;
         }
 
-        #container2 {
-            position: relative;
+        #supercontent {
+            position: absolute;
+            left: 50%;
+            top: 50%;
 
-            height: 200px;
+            height: 125px;
+            width: 125px;
             background-color: tomato;
-            margin-top: 10px;
-
-            border-radius: 10px 0px;
-        }
-
-        #conteudo2 {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-
-            height: 100px;
-            width: 100px;
-            background-color: greenyellow;
 
             transform: translate(-50%, -50%);
 
-            border-radius: 10px 0px;
+            border-radius: 20px;
+        }
+
+        #dupercontent {
+            position: relative;
+            left: 50%;
+            top: 50%;
+
+            height: 62px;
+            width: 62px;
+            background-color: black;
+
+            transform: translate(-50%, -50%);
+
+            border-radius: 15px;
+        }
+
+        #zupercontent {
+            position: relative;
+            left: 50%;
+            top: 50%;
+
+            height: 31px;
+            width: 31px;
+            background-color: white;
+            background-image: url(https://cdn.leroymerlin.com.br/products/placa_onde_esta_wally_metal_22cm_1566993960_d5e2_600x600.jpeg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+            transform: translate(-50%, -50%);
+
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <section id="container">
-        <article id="conteudo"></article>
+        <article id="content">
+            <div id="supercontent">
+                <div href="#" target="_blank" id="dupercontent">
+                    <div id="zupercontent"></div>
+                </div>
+            </div>
+        </article>
     </section>
-    <div id="container2">
-        <div id="conteudo2"></div>
-    </div>
 </body>
 </html>
