@@ -12,11 +12,17 @@
 
 * {
     margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
-    height: 220px;
+    height: 222px;
 }
 
 h1 {
@@ -26,6 +32,7 @@ h1 {
     font-size: 94px;
     text-align: center;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
@@ -52,6 +59,7 @@ p {
 }
 
 section {
+    background-color: white;
     font-family: var(--fonte-principal);
     line-height: 66.3px;
     padding-top: 10vh;
@@ -59,20 +67,55 @@ section {
     padding-left: 30px;
 }
 
+.normal1 {
+    background-image: url(https://static.wixstatic.com/media/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg/v1/fill/w_327,h_750,al_c,q_80,enc_auto/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg);
+    background-repeat: repeat-y;
+    background-position: center right;
+    background-attachment: scroll;
+    text-align: left;
+
+}
+
+.normal2 {
+    background-image: url(https://static.wixstatic.com/media/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg/v1/fill/w_327,h_750,al_c,q_80,enc_auto/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg);
+    background-repeat: repeat-y;
+    background-position: center right;
+    background-attachment: scroll;
+    text-align: left;
+
+}
+
+.normal3 {
+    background-image: url(https://static.wixstatic.com/media/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg/v1/fill/w_327,h_750,al_c,q_80,enc_auto/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg);
+    background-repeat: repeat-y;
+    background-position: center left;
+    background-attachment: scroll;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
 #section2 {
-    background-image: url(/Users/fernandovaz/Desktop/Desenvolvimento/html-css/Desafios/012/imagens/background001.jpg);
+    background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1162468341.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     color: white;
     background-attachment: fixed;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
 }
 
 #section4 {
-    background-image: url(/Users/fernandovaz/Desktop/Desenvolvimento/html-css/Desafios/012/imagens/background002.jpg);
-    background-repeat: no-repeat;
+    background-image: url(https://portalvidalivre.com/uploads/content/image/36496/AdobeStock_267411702.jpeg);
+    background-repeat: repeat;
     background-position: center center;
     color: white;
     background-attachment: fixed;
+    background-size: 100%;
+    text-shadow: 2px 2px 5px black;
+    text-align: right;
+    padding-right: 30px;
+    
 }
 
 footer {
