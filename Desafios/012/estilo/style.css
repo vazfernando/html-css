@@ -7,7 +7,7 @@
 :root {
     --fonte-principal: 'Sriracha', cursive;
     --fonte-secundária: 'Passion One', cursive;
-    --fonte-padrão: Verdana, sans-serif;
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -29,7 +29,7 @@ h1 {
     font-family: var(--fonte-secundária);
     font-weight: bold;
     color: #ffffff;
-    font-size: 94px;
+    font-size: 5em;
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps;
@@ -54,17 +54,18 @@ header a:hover {
     text-decoration: underline;
 }
 
-p {
-    font-size: 33px;
-}
-
 section {
     background-color: white;
     font-family: var(--fonte-principal);
-    line-height: 66.3px;
+    font-size: 1.6em;
+    line-height: 50.3px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+}
+
+section p {
+    padding-bottom: 30px;
 }
 
 .normal1 {
@@ -72,6 +73,7 @@ section {
     background-repeat: repeat-y;
     background-position: center right;
     background-attachment: scroll;
+    background-size: 30%;
     text-align: left;
 
 }
@@ -80,7 +82,6 @@ section {
     background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1162468341.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% 100%;
     color: white;
     background-attachment: fixed;
     text-shadow: 2px 2px 5px black;
@@ -92,6 +93,7 @@ section {
     background-repeat: repeat-y;
     background-position: center right;
     background-attachment: scroll;
+    background-size: 30%;
     text-align: left;
 
 }
@@ -99,10 +101,10 @@ section {
 .imagem4 {
     background-image: url(https://img.itinari.com/page/content/original/ab5130a7-b69a-4361-a64b-f1a4081372bf-istock-1094306486.jpg?ch=DPR&dpr=2.625&w=994&s=8f3afdb7320711dfeb0fe1848a1aff3f);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right bottom;
+    background-size: 1500px;
     color: white;
     background-attachment: fixed;
-    background-size: 100% 100%;
     text-shadow: 2px 2px 5px black;
     text-align: right;
     padding-right: 30px;   
@@ -113,21 +115,23 @@ section {
     background-repeat: repeat-y;
     background-position: center left;
     background-attachment: scroll;
+    background-size: 30%;
     text-align: right;
     padding-right: 30px;
 }
 
 .bgparagrafo_center {
-    background-color: rgba(62, 59, 59, 0.126);
-    margin: auto;
+    background-color: rgba(47, 44, 44, 0.126);
+    display: inline-block;
     width: 450px;
     border-radius: 5px;
 }
 
 .bgparagrafo_right {
-    background-color: rgba(62, 59, 59, 0.126);
-    margin-left: 450px;
-
+    background-color: rgba(47, 44, 44, 0.126);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
 }
 
 footer {
