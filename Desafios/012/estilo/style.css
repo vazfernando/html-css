@@ -76,7 +76,18 @@ section {
 
 }
 
-.normal2 {
+.imagem2 {
+    background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1162468341.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.normal3 {
     background-image: url(https://static.wixstatic.com/media/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg/v1/fill/w_327,h_750,al_c,q_80,enc_auto/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg);
     background-repeat: repeat-y;
     background-position: center right;
@@ -85,37 +96,38 @@ section {
 
 }
 
-.normal3 {
+.imagem4 {
+    background-image: url(https://img.itinari.com/page/content/original/ab5130a7-b69a-4361-a64b-f1a4081372bf-istock-1094306486.jpg?ch=DPR&dpr=2.625&w=994&s=8f3afdb7320711dfeb0fe1848a1aff3f);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 2px 5px black;
+    text-align: right;
+    padding-right: 30px;   
+}
+
+.normal5 {
     background-image: url(https://static.wixstatic.com/media/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg/v1/fill/w_327,h_750,al_c,q_80,enc_auto/ffe550_4a84cc103100488d80bee0b4f4c67856~mv2.jpg);
     background-repeat: repeat-y;
     background-position: center left;
     background-attachment: scroll;
     text-align: right;
     padding-right: 30px;
-
 }
 
-#section2 {
-    background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1162468341.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: white;
-    background-attachment: fixed;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
+.bgparagrafo_center {
+    background-color: rgba(62, 59, 59, 0.126);
+    margin: auto;
+    width: 450px;
+    border-radius: 5px;
 }
 
-#section4 {
-    background-image: url(https://portalvidalivre.com/uploads/content/image/36496/AdobeStock_267411702.jpeg);
-    background-repeat: repeat;
-    background-position: center center;
-    color: white;
-    background-attachment: fixed;
-    background-size: 100%;
-    text-shadow: 2px 2px 5px black;
-    text-align: right;
-    padding-right: 30px;
-    
+.bgparagrafo_right {
+    background-color: rgba(62, 59, 59, 0.126);
+    margin-left: 450px;
+
 }
 
 footer {
